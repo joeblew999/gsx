@@ -3,7 +3,11 @@
 /tmp/
 .DS_Store
 /gsx
-/.claude/
+# mise packslip skill links, per developer; the rest of .claude/ is committed
+.claude/skills/.mise-skills.json
+.claude/skills/dev
+.claude/skills/hk-configure
+.claude/skills/hk-debug
 cover.out
 .superpowers/
 /.worktrees/

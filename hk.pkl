@@ -8,8 +8,9 @@ local linters = new Mapping {
     ["go_vet"] = Builtins.go_vet
     ["gomod_tidy"] = Builtins.gomod_tidy
     // Vendored third-party skills are upstream content; never rewrite them.
+    // Upstream's docs, test fixtures and vendored files are upstream's content.
     ["trailing_whitespace"] = (Builtins.trailing_whitespace) {
-        exclude = List(".claude/skills/**")
+        exclude = List(".claude/skills/**", "docs/**", "**/testdata/**", "**/*.vendored")
     }
     ["check_merge_conflict"] = Builtins.check_merge_conflict
     ["detect_private_key"] = Builtins.detect_private_key

@@ -3,6 +3,7 @@
   "enableAllProjectMcpServers": true,
   "enabledPlugins": {
     "claude-code@claude-skills": false,
+    "cloudflare@cloudflare": false,
     "itp@cc-skills": false,
     "mise@cc-skills": false
   },

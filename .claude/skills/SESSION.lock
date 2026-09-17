@@ -16,17 +16,6 @@ artifact-capabilities
 artifact-design
 artifact-diagramming
 claude-api
-cloudflare:agents-sdk
-cloudflare:build-agent
-cloudflare:build-mcp
-cloudflare:building-ai-agent-on-cloudflare
-cloudflare:building-mcp-server-on-cloudflare
-cloudflare:cloudflare
-cloudflare:durable-objects
-cloudflare:sandbox-sdk
-cloudflare:web-perf
-cloudflare:workers-best-practices
-cloudflare:wrangler
 code-review
 dataviz
 dev
